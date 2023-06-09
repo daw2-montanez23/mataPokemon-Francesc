@@ -1,6 +1,6 @@
-import { P as Pokemons } from "./pokemons-ce57c497.js";
-import { g as getDefaultExportFromCjs, c as commonjsGlobal, U as User } from "./main-f5238906.js";
-import { P as Partidas } from "./partida-5d13e83c.js";
+import { P as Pokemons } from "./pokemons-f9b5f98f.js";
+import { g as getDefaultExportFromCjs, c as commonjsGlobal, U as User } from "./main-9435b9b8.js";
+import { P as Partidas } from "./partida-0aa0cba3.js";
 class Pokemon {
   // Mapping de propiedades de la tabla perfiles
   constructor(idP = null, id = null, nombre = null, imagen = null, x = null, y = null, velocidad = null, tamaño = null, html = null, tipo = null) {
@@ -2767,10 +2767,9 @@ const Swal = /* @__PURE__ */ getDefaultExportFromCjs(sweetalert2_allExports);
 const homeVista = {
   template: `
     <div id="boton">
-      <button type="button" class="btn btn-primary btn-lg" id="comenzar">Jugar</button>
+      <button type="button" class="btn btn-success btn-lg" id="comenzar">Jugar</button>
     </div>
   `,
-  //template: '<div id="boton"><button type="button" class="btn btn-dark" id="comenzar">Comenzar juego</button></div>',
   script: () => {
     const pokemons = [];
     const comenzar = document.querySelector("#comenzar");

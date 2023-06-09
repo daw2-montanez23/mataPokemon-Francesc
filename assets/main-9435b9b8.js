@@ -5147,14 +5147,14 @@ const __vitePreload = function preload(baseModule, deps, importerUrl) {
 const enrutador = {
   // Objeto (diccionario) con todas las rutas y su vista asociada
   rutas: {
-    home: __vitePreload(() => import("./homeVista-d508023a.js"), true ? ["./homeVista-d508023a.js","./pokemons-ce57c497.js","./partida-5d13e83c.js"] : void 0, import.meta.url),
+    home: __vitePreload(() => import("./homeVista-98a99e5e.js"), true ? ["./homeVista-98a99e5e.js","./pokemons-f9b5f98f.js","./partida-0aa0cba3.js"] : void 0, import.meta.url),
     // Usuarios
     //adminUsuarios: import('../vistas/admin/adminVista.js'),
-    registro: __vitePreload(() => import("./registroVista-7fd967ce.js"), true ? [] : void 0, import.meta.url),
-    login: __vitePreload(() => import("./loginVista-7dadbe7c.js"), true ? [] : void 0, import.meta.url),
-    perfiles: __vitePreload(() => import("./perfil-9d303d85.js"), true ? [] : void 0, import.meta.url),
-    pokemons: __vitePreload(() => import("./juegoPokemon-7878d203.js"), true ? ["./juegoPokemon-7878d203.js","./pokemons-ce57c497.js"] : void 0, import.meta.url),
-    partidas: __vitePreload(() => import("./partida-ca0b8707.js"), true ? ["./partida-ca0b8707.js","./partida-5d13e83c.js"] : void 0, import.meta.url)
+    registro: __vitePreload(() => import("./registroVista-d36eab54.js"), true ? [] : void 0, import.meta.url),
+    login: __vitePreload(() => import("./loginVista-1d33ac1b.js"), true ? [] : void 0, import.meta.url),
+    perfiles: __vitePreload(() => import("./perfil-4cfea691.js"), true ? [] : void 0, import.meta.url),
+    pokemons: __vitePreload(() => import("./juegoPokemon-ddf19c11.js"), true ? ["./juegoPokemon-ddf19c11.js","./pokemons-f9b5f98f.js"] : void 0, import.meta.url),
+    partidas: __vitePreload(() => import("./partida-fa29bd89.js"), true ? ["./partida-fa29bd89.js","./partida-0aa0cba3.js"] : void 0, import.meta.url)
     // Proyectos
     // proyectos: import('../vistas/proyectos/proyectosVistas'),
     // nuevoProyecto: import('../vistas/proyectos/nuevoProyectoVista.js'),
@@ -12014,7 +12014,7 @@ const menuUsuario = {
           <span id="emailUsuarioLogueado" class="pe-3 text-dark"></span>
             <img
               id="imgAvatar"
-              src="./recursos/avatar.svg"
+              src="https://iconape.com/wp-content/files/ru/155808/svg/155808.svg"
               alt="Logo"
               width="30"
               height="30"

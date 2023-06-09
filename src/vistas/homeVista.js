@@ -6,10 +6,9 @@ import { Partidas } from '../bd/partida'
 export default {
   template: `
     <div id="boton">
-      <button type="button" class="btn btn-primary btn-lg" id="comenzar">Jugar</button>
+      <button type="button" class="btn btn-success btn-lg" id="comenzar">Jugar</button>
     </div>
   `,
-  //template: '<div id="boton"><button type="button" class="btn btn-dark" id="comenzar">Comenzar juego</button></div>',
   script: () => {
     const pokemons = []
 

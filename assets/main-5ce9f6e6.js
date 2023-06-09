@@ -5098,7 +5098,9 @@ class Toast extends BaseComponent {
 enableDismissTrigger(Toast);
 defineJQueryPlugin(Toast);
 const footer = {
-  template: ``
+  template: `<nav class="navbar navbar-expand-sm bg-warning fixed-bottom text-center justify-content-center">
+        <p>FRANCESC MONTAÑEZ ROSELL</p>
+    </nav>`
 };
 const scriptRel = "modulepreload";
 const assetsURL = function(dep, importerUrl) {
@@ -5147,14 +5149,14 @@ const __vitePreload = function preload(baseModule, deps, importerUrl) {
 const enrutador = {
   // Objeto (diccionario) con todas las rutas y su vista asociada
   rutas: {
-    home: __vitePreload(() => import("./homeVista-98a99e5e.js"), true ? ["./homeVista-98a99e5e.js","./pokemons-f9b5f98f.js","./partida-0aa0cba3.js"] : void 0, import.meta.url),
+    home: __vitePreload(() => import("./homeVista-ad00611f.js"), true ? ["./homeVista-ad00611f.js","./pokemons-a2c70e3b.js","./partida-13dd1b65.js"] : void 0, import.meta.url),
     // Usuarios
     //adminUsuarios: import('../vistas/admin/adminVista.js'),
-    registro: __vitePreload(() => import("./registroVista-d36eab54.js"), true ? [] : void 0, import.meta.url),
-    login: __vitePreload(() => import("./loginVista-1d33ac1b.js"), true ? [] : void 0, import.meta.url),
-    perfiles: __vitePreload(() => import("./perfil-4cfea691.js"), true ? [] : void 0, import.meta.url),
-    pokemons: __vitePreload(() => import("./juegoPokemon-ddf19c11.js"), true ? ["./juegoPokemon-ddf19c11.js","./pokemons-f9b5f98f.js"] : void 0, import.meta.url),
-    partidas: __vitePreload(() => import("./partida-fa29bd89.js"), true ? ["./partida-fa29bd89.js","./partida-0aa0cba3.js"] : void 0, import.meta.url)
+    registro: __vitePreload(() => import("./registroVista-ba25d271.js"), true ? [] : void 0, import.meta.url),
+    login: __vitePreload(() => import("./loginVista-f514046f.js"), true ? [] : void 0, import.meta.url),
+    perfiles: __vitePreload(() => import("./perfil-318cbe69.js"), true ? [] : void 0, import.meta.url),
+    pokemons: __vitePreload(() => import("./juegoPokemon-bb4d127c.js"), true ? ["./juegoPokemon-bb4d127c.js","./pokemons-a2c70e3b.js"] : void 0, import.meta.url),
+    partidas: __vitePreload(() => import("./partida-ea1769ce.js"), true ? ["./partida-ea1769ce.js","./partida-13dd1b65.js"] : void 0, import.meta.url)
     // Proyectos
     // proyectos: import('../vistas/proyectos/proyectosVistas'),
     // nuevoProyecto: import('../vistas/proyectos/nuevoProyectoVista.js'),
@@ -12014,7 +12016,7 @@ const menuUsuario = {
           <span id="emailUsuarioLogueado" class="pe-3 text-dark"></span>
             <img
               id="imgAvatar"
-              src="https://iconape.com/wp-content/files/ru/155808/svg/155808.svg"
+              src="./recursos/avatar.svg"
               alt="Logo"
               width="30"
               height="30"
@@ -12178,7 +12180,7 @@ const header = {
   template: `
   
 <!-- Navbar  -->
-<nav class="navbar navbar-expand-sm bg-light fixed-top">
+<nav class="navbar navbar-expand-sm bg-warning fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand d-flex align-items-center" href="#/home">
       <img

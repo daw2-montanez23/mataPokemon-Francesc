@@ -1,5 +1,5 @@
-import { P as Partidas } from "./partida-0aa0cba3.js";
-import "./main-9435b9b8.js";
+import { P as Partidas } from "./partida-13dd1b65.js";
+import "./main-5ce9f6e6.js";
 const partida = {
   template: `
   <h1>Administración de incidencias</h1>
